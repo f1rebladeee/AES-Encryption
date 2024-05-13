@@ -9,7 +9,7 @@ from decrypt import *
 
 
 # Tech bot information
-token = '7155852399:AAEFVqqK-a8Ig4kyCz-S6g-_f06EusgIZ2Y'
+token = 'MY_BOT_TOKEN'
 bot = TeleBot(token)
 
 
