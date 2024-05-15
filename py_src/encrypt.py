@@ -250,8 +250,6 @@ def encrypt_data(open_text, key_schedule):
 
 
 def un_mix_columns(state):
-    # result = [[0] * 4 for _ in range(4)]
-
     result = mix_columns(state)
     result = mix_columns(result)
     result = mix_columns(result)
