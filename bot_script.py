@@ -9,7 +9,7 @@ from decrypt import *
 
 
 # Tech bot information
-token = 'MY_BOT_TOKEN'
+token = open('bot_token.txt').read()
 bot = TeleBot(token)
 
 
